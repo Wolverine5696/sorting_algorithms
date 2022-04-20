@@ -1,6 +1,6 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include "sort.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * bubble_sort - array that sorts int by swaping positions
