@@ -13,7 +13,7 @@
 void bubble_sort(int *array, size_t size)
 {
 	size_t x, y;
-	size_t k = size;
+	size_t n = size;
 	int temp = 0;
 	int *array = malloc(n * sizeof(int));
 

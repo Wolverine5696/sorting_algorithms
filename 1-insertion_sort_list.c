@@ -1,16 +1,9 @@
 #include "sort.h"
 
-/**
- * swap_nodes - nodes to swap for the insertion sort
- * @list: doubly linked list
- * @node1: element to swap
- * @node2: 2nd element to swap
- */
-
-void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2)
+void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
 /**
  * insertion_sort_list - sorts a doubly linked list using the insertion sort
- *
+ *				algorithm
  * @list: list to sort
  *
  */
