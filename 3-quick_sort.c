@@ -51,7 +51,7 @@ int partition(int *arr, int low, int high, int size)
 	int pivot = arr[high];
 	int x, y = (low  - 1);
 
-	for (x = low ; x <= high; x + 1)
+	for (x = low ; x <= high; x++)
 	{
 		if (arr[x] <= pivot)
 		{
