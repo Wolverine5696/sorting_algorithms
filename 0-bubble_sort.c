@@ -15,20 +15,20 @@ void bubble_sort(int *array, size_t size)
 	size_t x, y;
 	size_t n = size;
 	int temp = 0;
-	int *arrayB = malloc(n * sizeof(int));
+	int *array = malloc(n * sizeof(int));
 
-	arrayB = array;
+	array = array;
 
 	for (x = 1; x < n; x++)
 	{
 		for (y = 0; y < n - 1; y++)
 		{
-			if (arrayB[y] > array[y + 1])
+			if (array[y] > array[y + 1])
 			{
-				temp = arrayB[y + 1];
-				arrayB[y] = array[y + 1];
-				arrayB[y + 1] = temp;
-				print_array(arrayB, n);
+				temp = array[y];
+				array[y] = array[y + 1];
+				array[y + 1] = temp;
+				print_array(array, n);
 			}
 
 		}
